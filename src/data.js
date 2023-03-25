@@ -23,7 +23,7 @@ import Avatar3 from '../src/assets/img/testimonial/avatar3.png';
 export const navData = [
   { href: '/', name: 'home' },
   { href: '/', name: 'about' },
-  { href: '/', name: 'menu' },
+  { href: '/manu', name: 'menu' },
   { href: '/', name: 'team' },
   { href: '/', name: 'testimonials' },
   { href: '/', name: 'book a table' },
