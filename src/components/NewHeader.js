@@ -3,11 +3,14 @@ import React, { useState, useEffect } from "react";
 import Nav from "../components/Nav";
 import Socials from "../components/Socials";
 // import logo
-import LogoWhite from "../assets/img/header/logo-white.png";
+import cherrychooklogo from "../assets/img/header/cherrychooklogo.png";
+import cherrychooklogowhite from "../assets/img/header/cherrychooklogowhite.png";
+import cherrylogosmall from "../assets/img/header/cherrylogosmall.png";
 // import motion
 import { motion } from "framer-motion";
 // import variants
 import { staggerContainer, fadeIn } from "../variants";
+import { NavLink } from "react-router-dom";
 import {
   PaperAirplaneIcon,
   MoonIcon,
@@ -67,29 +70,86 @@ const NewHeader = () => {
 
   return (
     <>
-      <nav className="sticky  top-0 z-50">
+      <nav className="sticky  top-0 z-50  bg-red-700 h-20 ">
         <div className="max-w-7xl mx-auto">
-          <div className="flex mx-auto justify-between w-5/6 ">
+          <div className="flex mx-auto justify-between align-middle w-5/6 ">
             {/* Primary menu and logo */}
-            <div className="flex items-center gap-16 my-12">
+            <div className="flex items-center gap-16">
               {/* logo */}
-              <div>
-                <a
-                  href="/"
-                  className="flex gap-1 font-bold text-gray-700 items-center "
-                >
-                  <PaperAirplaneIcon className="h-6 w-6 text-primary" />
-                  <span>Paper.io</span>
-                </a>
-              </div>
+
+              <motion.div
+                variants={fadeIn("down", "tween", 1.2, 1.4)}
+                className="order-1 lg:order-none lg:ml-[11rem]"
+              >
+                <NavLink to="/">
+                  {/* if header is active make logo 90 x 90 px else 107 x 107px */}
+                  <img
+                    className={`${
+                      isActive ? "w-[80px] h-[80px]" : "w-[90px] h-[90px]"
+                    }`}
+                    src={cherrychooklogowhite}
+                    alt=""
+                  />
+                </NavLink>
+              </motion.div>
               {/* primary */}
-              <div className="hidden lg:flex gap-8 ">
-                <a href="#" className="">
-                  Home
-                </a>
-                <a href="#">Benefits</a>
-                <a href="#">Our Classes</a>
-                <a href="#">Contact Us</a>
+
+              <div className="hidden lg:flex gap-10 ">
+                <NavLink
+                  className={(navlInk) =>
+                    navlInk.isActive
+                      ? "text-xl text-dark capitalize font-primary italic hover:text-dark transition-all duration-300"
+                      : "text-xl  text-white capitalize font-primary  hover:text-dark transition-all duration-300"
+                  }
+                  to="/"
+                >
+                  home
+                </NavLink>
+                <button className="text-xl text-white rounded capitalize font-primary italic hover:text-dark transition-all duration-300">
+                  Order Online
+                </button>
+                <NavLink
+                  className={(navlInk) =>
+                    navlInk.isActive
+                      ? "text-xl text-blue-900 capitalize font-primary italic hover:text-dark transition-all duration-300"
+                      : "text-xl  text-white capitalize font-primary  hover:text-dark transition-all duration-300"
+                  }
+                  to="/contact"
+                >
+                  contact us
+                </NavLink>
+
+                <span class="group relative inline-block">
+                  <button class="inline-flex items-center rounded  font-semibold  text-white">
+                    Manu
+                  </button>
+                  <ul class="absolute hidden pt-1 text-gray-700 group-hover:block">
+                    <li class="  bg-white ">
+                      <NavLink
+                        className={(navlInk) =>
+                          navlInk.isActive
+                            ? "text-xl text-blue-900 capitalize font-primary hover:text-dark transition-all duration-300"
+                            : "text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
+                        }
+                        to="/menu"
+                      >
+                        store menu
+                      </NavLink>
+                    </li>
+                    <li class=" bg-white ">
+                      <NavLink
+                        className={(navlInk) =>
+                          navlInk.isActive
+                            ? "text-xl text-blue-900 capitalize font-primary hover:text-dark transition-all duration-300"
+                            : "text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
+                        }
+                        to="/catering-menu"
+                      >
+                        catering menu
+                      </NavLink>
+                    </li>
+                  </ul>
+                </span>
               </div>
             </div>
             {/* secondary */}
@@ -122,12 +182,55 @@ const NewHeader = () => {
         >
           <div className="px-8">
             <div className="flex flex-col gap-8 font-bold tracking-wider">
-              <a href="#" className="border-l-4 border-gray-600">
-                Features
+              <NavLink
+                className={(navlInk) =>
+                  navlInk.isActive
+                    ? "text-xl text-red-700 capitalize font-primary italic hover:text-dark transition-all duration-300"
+                    : "text-xl  text-black capitalize font-primary  hover:text-dark transition-all duration-300"
+                }
+                to="/"
+              >
+                home
+              </NavLink>
+
+              <NavLink
+                className={(navlInk) =>
+                  navlInk.isActive
+                    ? "text-xl text-red-700 capitalize font-primary italic hover:text-dark transition-all duration-300"
+                    : "text-xl  text-black capitalize font-primary  hover:text-dark transition-all duration-300"
+                }
+                to="/contact"
+              >
+                contact us
+              </NavLink>
+
+              <NavLink
+                className={(navlInk) =>
+                  navlInk.isActive
+                    ? "text-xl text-red-700 capitalize font-primary hover:text-dark transition-all duration-300"
+                    : "text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
+                }
+                to="/menu"
+              >
+                store menu
+              </NavLink>
+
+              <NavLink
+                className={(navlInk) =>
+                  navlInk.isActive
+                    ? "text-xl text-red-700 capitalize font-primary hover:text-dark transition-all duration-300"
+                    : "text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
+                }
+                to="/catering-menu"
+              >
+                catering menu
+              </NavLink>
+              <a
+                className="text-xl text-black rounded capitalize font-primary italic hover:text-dark transition-all duration-300"
+                href="/#"
+              >
+                Order Online
               </a>
-              <a href="#">Pricing</a>
-              <a href="#">Download</a>
-              <a href="#">Classic</a>
             </div>
           </div>
         </div>
