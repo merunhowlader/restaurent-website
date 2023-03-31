@@ -1,12 +1,18 @@
 import React from "react";
-import { ImageLessAllManu } from "./Components/ImageLessAllManu";
-import { SingleCategoryManu } from "./Components/SingleCategoryManu";
+import { DoublePriceMenu } from "./Components/DoublePriceMenu";
+import { SingleCategoryMenu } from "./Components/SingleCategoryMenu";
 
 export const Manu = () => {
   return (
-    <div className="h-full bg-pattern bg-repeat  mx-auto overflow-hidden">
-      <SingleCategoryManu />
-      <div className="h-[380px] md:h-[370px]"></div>
+    <div className="h-full bg-pattern bg-repeat  mx-auto overflow-hidden grid grid-rows-1 justify-center items-center  ">
+      <div className="bg-red-700 "></div>
+      <div className="md:px-20  justify-center items-center">
+        <SingleCategoryMenu />
+      </div>
+
+      <div className="md:px-20  justify-center items-center ">
+        <DoublePriceMenu />
+      </div>
     </div>
   );
 };

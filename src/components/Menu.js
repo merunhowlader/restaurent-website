@@ -5,7 +5,7 @@ import { menuData } from "../data";
 import { motion } from "framer-motion";
 // import variants
 import { fadeIn, staggerContainer } from "../variants";
-
+import { NavLink } from "react-router-dom";
 const Menu = () => {
   // destructure menu data
   const { title, subtitle, modelImg, menuItems, btnText } = menuData;
@@ -66,7 +66,7 @@ const Menu = () => {
                 const { image, name, price, description } = item;
                 return (
                   <div key={index}>
-                    <div className="flex flex-row lg:flex-col h-full">
+                    <div className="flex flex-row lg:flex-col h-full hover:scale-110 ">
                       {/* image */}
                       {/* reverse order for the first image and the last one */}
                       <div
@@ -96,7 +96,13 @@ const Menu = () => {
               })}
             </div>
           </div>
-          <button className="btn mx-auto capitalize">{btnText}</button>
+          <button
+            className="btn mx-auto capitalize flex justify-center"
+            componet={NavLink}
+            to=""
+          >
+            Order Online
+          </button>
         </div>
       </motion.div>
     </section>

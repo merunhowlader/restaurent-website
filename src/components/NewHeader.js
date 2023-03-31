@@ -71,7 +71,7 @@ const NewHeader = () => {
   return (
     <>
       <nav className="sticky  top-0 z-50  bg-red-700 h-20 ">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto ">
           <div className="flex mx-auto justify-between align-middle w-5/6 ">
             {/* Primary menu and logo */}
             <div className="flex items-center gap-16">
@@ -111,7 +111,7 @@ const NewHeader = () => {
                 <NavLink
                   className={(navlInk) =>
                     navlInk.isActive
-                      ? "text-xl text-blue-900 capitalize font-primary italic hover:text-dark transition-all duration-300"
+                      ? "text-xl  text-dark capitalize font-primary italic hover:text-dark transition-all duration-300"
                       : "text-xl  text-white capitalize font-primary  hover:text-dark transition-all duration-300"
                   }
                   to="/contact"
@@ -123,25 +123,25 @@ const NewHeader = () => {
                   <button class="inline-flex items-center rounded  font-semibold  text-white">
                     Manu
                   </button>
-                  <ul class="absolute hidden pt-1 text-gray-700 group-hover:block">
-                    <li class="  bg-white ">
+                  <ul class="absolute hidden p-1 w-52 bg-red-700 group-hover:block scale-100 transition duration-300 z-50  shadow-xl shadow-gray-500">
+                    <li>
                       <NavLink
                         className={(navlInk) =>
                           navlInk.isActive
-                            ? "text-xl text-blue-900 capitalize font-primary hover:text-dark transition-all duration-300"
-                            : "text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
+                            ? "text-xl text-dark capitalize font-primary hover:text-white transition-all duration-300"
+                            : "text-xl capitalize font-primary text-white hover:text-dark transition-all duration-300"
                         }
                         to="/menu"
                       >
                         store menu
                       </NavLink>
                     </li>
-                    <li class=" bg-white ">
+                    <li>
                       <NavLink
                         className={(navlInk) =>
                           navlInk.isActive
-                            ? "text-xl text-blue-900 capitalize font-primary hover:text-dark transition-all duration-300"
-                            : "text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
+                            ? "text-xl text-dark capitalize font-primary hover:text-white transition-all duration-300"
+                            : "text-xl capitalize font-primary text-white  hover:text-dark transition-all duration-300"
                         }
                         to="/catering-menu"
                       >
@@ -212,8 +212,41 @@ const NewHeader = () => {
                 }
                 to="/menu"
               >
-                store menu
+                menu
               </NavLink>
+              {/* <li class="border-b-2 border-white hover:bg-red-400 hover:text-white">
+                <a href="#" class="block pl-11">
+                  Services <i class="fa-solid fa-chevron-down fa-2xs pt-4"></i>
+                </a>
+
+                <ul class="bg-white text-gray-800 w-full">
+                  <li class="text-sm leading-8 font-normal hover:bg-slate-200">
+                    <a class="block pl-16" href="#">
+                      Webdesign
+                    </a>
+                  </li>
+                  <li class="text-sm leading-8 font-normal hover:bg-slate-200">
+                    <a class="block pl-16" href="#">
+                      Digital marketing
+                    </a>
+                  </li>
+                  <li class="text-sm leading-8 font-normal hover:bg-slate-200">
+                    <a class="block pl-16" href="#">
+                      SEO
+                    </a>
+                  </li>
+                  <li class="text-sm leading-8 font-normal hover:bg-slate-200">
+                    <a class="block pl-16" href="#">
+                      Ad campaigns
+                    </a>
+                  </li>
+                  <li class="text-sm leading-8 font-normal hover:bg-slate-200">
+                    <a class="block pl-16" href="#">
+                      UX Design
+                    </a>
+                  </li>
+                </ul>
+              </li> */}
 
               <NavLink
                 className={(navlInk) =>
