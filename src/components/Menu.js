@@ -5,10 +5,11 @@ import { menuData } from "../data";
 import { motion } from "framer-motion";
 // import variants
 import { fadeIn, staggerContainer } from "../variants";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 const Menu = () => {
   // destructure menu data
   const { title, subtitle, modelImg, menuItems, btnText } = menuData;
+  const navigate = useNavigate();
   return (
     <section className="min-h-[780px]">
       {/* background */}
@@ -26,7 +27,7 @@ const Menu = () => {
             variants={fadeIn("down", "tween", 0.2, 1.6)}
             className="h2 capitalize text-white max-w-[400px] text-center"
           >
-            {title}
+            Takeout Menu
           </motion.h2>
           <motion.p
             variants={fadeIn("down", "tween", 0.4, 1.6)}
@@ -84,10 +85,10 @@ const Menu = () => {
                           <div className="text-xl font-semibold text-dark xl:text-2xl">
                             {name}
                           </div>
-                          <div className="my-1 text-[20px] lg:text-[40px] lg:my-6 text-accent font-semibold">
+                          {/* <div className="my-1 text-[20px] lg:text-[40px] lg:my-6 text-accent font-semibold">
                             {price}
                           </div>
-                          <div>{description}</div>
+                          <div>{description}</div> */}
                         </div>
                       </div>
                     </div>
@@ -99,9 +100,9 @@ const Menu = () => {
           <button
             className="btn mx-auto capitalize flex justify-center"
             componet={NavLink}
-            to=""
+            to="/menu"
           >
-            Order Online
+            <NavLink to="/menu">Viw Full menu</NavLink>
           </button>
         </div>
       </motion.div>

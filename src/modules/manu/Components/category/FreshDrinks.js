@@ -10,7 +10,7 @@ export const FreshDrinks = () => {
         </h2>
       </div>
       <div className="w-full flex justify-center  align-middle ">
-        <h3 className=" text-orange-300 text-[22px] lg:text-[28px]  uppercase font-bold font-primary aligin-center lg:font-medium mb-1">
+        <h3 className="  text-[#6e6262] text-[22px] lg:text-[28px]  uppercase font-bold font-primary aligin-center lg:font-medium mb-1">
           ALL 7.5
         </h3>
       </div>

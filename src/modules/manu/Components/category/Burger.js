@@ -51,7 +51,7 @@ export const Burger = () => {
           <div class="grid grid-cols-1  md:grid-cols-2 gap-2 sm:gap-4 w-full ">
             <div>
               <DoublePriceSingleItem
-                name="Honest Chicken"
+                name="Grilled Chicken Burger"
                 description="Grilled Chicken Fillet, Lettuce, Tomato,
                 Cheese, Aioli"
                 singlePrice="11.90"
@@ -193,7 +193,7 @@ export const Burger = () => {
           <div class="grid grid-cols-1 md:grid-cols-2  gap-2 sm:gap-4 w-full ">
             <div>
               <DoublePriceSingleItem
-                name="Honest Beef"
+                name="Beef Burger"
                 description="Beef Patty, Gherkins, Lettuce, Tomato, Onion,
                 Mustard Mayo, Tomato/BBQ Sauce"
                 singlePrice="11.90"
@@ -315,7 +315,7 @@ export const Burger = () => {
             </div>
             <div>
               <DoublePriceSingleItem
-                name="Honest Veggie"
+                name=" Veggie burger"
                 description="Veggie Pattie, Beetroot, Onion, Lettuce, Tomato,
                 Avocado, Your Choice Of Sauce"
                 singlePrice="12.90"
@@ -324,8 +324,8 @@ export const Burger = () => {
             </div>
             <div>
               <WithoutPriceSingleItem
-                name="Honest Box"
-                description="Honest Chicken or Beef Burger, Chips, 3 x Wings,
+                name="CherryChook Box"
+                description="Chicken or Beef Burger, Chips, 3 x Wings,
                 Gravy or Dip & Drink- Other Burgers Available"
               />
             </div>

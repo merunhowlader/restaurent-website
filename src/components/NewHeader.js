@@ -98,20 +98,24 @@ const NewHeader = () => {
                 <NavLink
                   className={(navlInk) =>
                     navlInk.isActive
-                      ? "text-xl text-dark capitalize font-primary italic hover:text-dark transition-all duration-300"
+                      ? "text-xl text-dark capitalize font-primary hover:text-dark transition-all duration-300"
                       : "text-xl  text-white capitalize font-primary  hover:text-dark transition-all duration-300"
                   }
                   to="/"
                 >
                   home
                 </NavLink>
-                <button className="text-xl text-white rounded capitalize font-primary italic hover:text-dark transition-all duration-300">
+
+                <NavLink
+                  className="text-xl  text-white capitalize font-primary  hover:text-dark transition-all duration-300"
+                  to="/contact"
+                >
                   Order Online
-                </button>
+                </NavLink>
                 <NavLink
                   className={(navlInk) =>
                     navlInk.isActive
-                      ? "text-xl  text-dark capitalize font-primary italic hover:text-dark transition-all duration-300"
+                      ? "text-xl  text-dark capitalize font-primary hover:text-dark transition-all duration-300"
                       : "text-xl  text-white capitalize font-primary  hover:text-dark transition-all duration-300"
                   }
                   to="/contact"
@@ -121,7 +125,7 @@ const NewHeader = () => {
 
                 <span class="group relative inline-block">
                   <button class="inline-flex items-center rounded  font-semibold  text-white">
-                    Manu
+                    Menu
                   </button>
                   <ul class="absolute hidden p-1 w-52 bg-red-700 group-hover:block scale-100 transition duration-300 z-50  shadow-xl shadow-gray-500">
                     <li>
@@ -143,7 +147,7 @@ const NewHeader = () => {
                             ? "text-xl text-dark capitalize font-primary hover:text-white transition-all duration-300"
                             : "text-xl capitalize font-primary text-white  hover:text-dark transition-all duration-300"
                         }
-                        to="/catering-menu"
+                        to="/contact"
                       >
                         catering menu
                       </NavLink>
@@ -180,12 +184,12 @@ const NewHeader = () => {
             !toggleMenu ? "h-0" : "h-full"
           }`}
         >
-          <div className="px-8">
+          <div className="px-8" onClick={() => setToggleMenu(!toggleMenu)}>
             <div className="flex flex-col gap-8 font-bold tracking-wider">
               <NavLink
                 className={(navlInk) =>
                   navlInk.isActive
-                    ? "text-xl text-red-700 capitalize font-primary italic hover:text-dark transition-all duration-300"
+                    ? "text-xl text-red-700 capitalize font-primary hover:text-dark transition-all duration-300"
                     : "text-xl  text-black capitalize font-primary  hover:text-dark transition-all duration-300"
                 }
                 to="/"
@@ -196,7 +200,7 @@ const NewHeader = () => {
               <NavLink
                 className={(navlInk) =>
                   navlInk.isActive
-                    ? "text-xl text-red-700 capitalize font-primary italic hover:text-dark transition-all duration-300"
+                    ? "text-xl text-red-700 capitalize font-primary  hover:text-dark transition-all duration-300"
                     : "text-xl  text-black capitalize font-primary  hover:text-dark transition-all duration-300"
                 }
                 to="/contact"
@@ -212,58 +216,21 @@ const NewHeader = () => {
                 }
                 to="/menu"
               >
-                menu
+                takeaway menu
               </NavLink>
-              {/* <li class="border-b-2 border-white hover:bg-red-400 hover:text-white">
-                <a href="#" class="block pl-11">
-                  Services <i class="fa-solid fa-chevron-down fa-2xs pt-4"></i>
-                </a>
-
-                <ul class="bg-white text-gray-800 w-full">
-                  <li class="text-sm leading-8 font-normal hover:bg-slate-200">
-                    <a class="block pl-16" href="#">
-                      Webdesign
-                    </a>
-                  </li>
-                  <li class="text-sm leading-8 font-normal hover:bg-slate-200">
-                    <a class="block pl-16" href="#">
-                      Digital marketing
-                    </a>
-                  </li>
-                  <li class="text-sm leading-8 font-normal hover:bg-slate-200">
-                    <a class="block pl-16" href="#">
-                      SEO
-                    </a>
-                  </li>
-                  <li class="text-sm leading-8 font-normal hover:bg-slate-200">
-                    <a class="block pl-16" href="#">
-                      Ad campaigns
-                    </a>
-                  </li>
-                  <li class="text-sm leading-8 font-normal hover:bg-slate-200">
-                    <a class="block pl-16" href="#">
-                      UX Design
-                    </a>
-                  </li>
-                </ul>
-              </li> */}
 
               <NavLink
-                className={(navlInk) =>
-                  navlInk.isActive
-                    ? "text-xl text-red-700 capitalize font-primary hover:text-dark transition-all duration-300"
-                    : "text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
-                }
-                to="/catering-menu"
+                className="text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
+                to="/contact"
               >
                 catering menu
               </NavLink>
-              <a
-                className="text-xl text-black rounded capitalize font-primary italic hover:text-dark transition-all duration-300"
-                href="/#"
+              <NavLink
+                className="text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
+                to="/contact"
               >
                 Order Online
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>

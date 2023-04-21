@@ -17,21 +17,21 @@ export const FamilyPacks = () => {
               name="Portuguese Pack"
               description="1 Whole Portuguese Style Chicken, Large Salad,
               Large Chips & Garlic/Piri/L&H Sauce"
-              price="39.90"
+              price="41.90"
             />
           </div>
           <div>
             <SingleItemWithDescription
               name="BBQ Pack"
               description="1 Whole Chicken, Large Salad & Large Chips"
-              price="39.90"
+              price="41.90"
             />
           </div>
           <div>
             <SingleItemWithDescription
               name="Healthy Pack"
               description="1 Whole Chicken, Large Salad & Large Veggies"
-              price="43.90"
+              price="45.90"
             />
           </div>
           <div>

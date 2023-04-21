@@ -10,7 +10,7 @@ export const FreeRangeChicken = () => {
         </h2>
       </div>
       <div className="w-full  px-6 flex justify-start  sm:justify-center   align-middle ">
-        <h3 className=" text-orange-300 text-[20px] lg:text-[24px]  uppercase font-bold font-primary aligin-center lg:font-medium mb-1">
+        <h3 className=" text-[#6e6262] text-[20px] lg:text-[24px]  uppercase font-bold font-primary aligin-center lg:font-medium mb-1">
           Flame Grilled BBQ or Portuguese
         </h3>
       </div>

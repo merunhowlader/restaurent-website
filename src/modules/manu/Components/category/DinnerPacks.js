@@ -10,7 +10,7 @@ export const DinnerPacks = () => {
         </h2>
       </div>
       <div className="w-full flex px-6 justify-start  sm:justify-center align-middle ">
-        <h3 className=" text-orange-300 text-[20px] lg:text-[24px]  uppercase font-bold font-primary aligin-center lg:font-medium mb-1">
+        <h3 className="  text-[#6e6262] text-[20px] lg:text-[24px]  uppercase font-bold font-primary aligin-center lg:font-medium mb-1">
           Served With Choice Of 3 Salads Or Veggies & Gravy
         </h3>
       </div>

@@ -7,6 +7,7 @@ import Header from "./Header";
 import { motion } from "framer-motion";
 // import variants
 import { fadeIn, staggerContainer } from "../variants";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   // destructure hero data
@@ -46,7 +47,9 @@ const Hero = () => {
           </motion.p>
           {/* button */}
           <motion.div variants={fadeIn("down", "tween", 0.5, 1.1)}>
-            <button className="btn">Order Online</button>
+            <Link to="/contact" className="btn btn-primary">
+              Order Online
+            </Link>
           </motion.div>
         </motion.div>
       </div>

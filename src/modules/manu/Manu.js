@@ -10,6 +10,7 @@ import { TwoBlock } from "./Components/category/TwoBlock";
 import { Burger } from "./Components/category/Burger";
 import { Rolls } from "./Components/category/Rolls";
 import { FreshDrinks } from "./Components/category/FreshDrinks";
+import { Desserts } from "./Components/category/Desserts";
 
 export const Manu = () => {
   return (
@@ -40,6 +41,9 @@ export const Manu = () => {
       </div>
       <div className="px-5 md:px-20  justify-center items-center ">
         <FreshDrinks />
+      </div>
+      <div className="px-5 md:px-20  justify-center items-center ">
+        <Desserts />
       </div>
 
       {/* <div className="px-5 md:px-20  justify-center items-center">
