@@ -76,16 +76,16 @@ export const TwoBlock = () => {
           <div className="w-full p-6 ">
             <div class="grid grid-cols-1  gap-2 sm:gap-4 ">
               <div>
-                <ImageLessSingleItem name="REG" price="8.50" />
+                <ImageLessSingleItem name="Small" price="8.50" />
               </div>
               <div>
-                <ImageLessSingleItem name="MED" price="11.90" />
+                <ImageLessSingleItem name="Medium" price="12.90" />
               </div>
               <div>
-                <ImageLessSingleItem name="LRG" price="14.90" />
+                <ImageLessSingleItem name="Large" price="15.90" />
               </div>
               <div>
-                <ImageLessSingleItem name="X LRG" price="18.90" />
+                <ImageLessSingleItem name="XL" price="19.90" />
               </div>
 
               <div></div>

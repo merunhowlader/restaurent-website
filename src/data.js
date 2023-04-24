@@ -62,25 +62,25 @@ export const menuData = {
   menuItems: [
     {
       image: MenuImg1,
-      name: "Chocolate Cake",
+      name: "Spinach Ricotta Lasagna",
       price: "$7.99",
       description: "Class aptent taciti ciosqu litora torquent per",
     },
     {
       image: MenuImg2,
-      name: "Veggie Burger",
+      name: "Lemongrass Chicken Salad",
       price: "$9.49",
       description: "Class aptent taciti ciosqu litora torquent per",
     },
     {
       image: MenuImg3,
-      name: "King Burger",
+      name: " Chicken Lot Burger",
       price: "$8.50",
       description: "Class aptent taciti ciosqu litora torquent per",
     },
     {
       image: MenuImg4,
-      name: "Mexican Burger",
+      name: " Baked Tasmanian Salmon",
       price: "$9.99",
       description: "Class aptent taciti ciosqu litora torquent per",
     },
