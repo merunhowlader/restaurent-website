@@ -54,7 +54,7 @@ const Footer = () => {
               <div className="flex gap-x-[46px]">
                 <div className="capitalize">
                   <div>
-                    <div>Saturday - Sunday</div>
+                    <div>Monday - Sunday</div>
                     <div className="text-[20px] text-accent">
                       08:30 AM - 8:00 PM
                     </div>
