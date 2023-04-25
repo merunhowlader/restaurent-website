@@ -43,7 +43,7 @@ const Hero = () => {
             variants={fadeIn("down", "tween", 0.4, 1.1)}
             className="text-white max-w-[540px] mb-8"
           >
-            cherryChook serving established receips with love & care
+            cherryChook serving established recipe with love & care
           </motion.p>
           {/* button */}
           <motion.div variants={fadeIn("down", "tween", 0.5, 1.1)}>

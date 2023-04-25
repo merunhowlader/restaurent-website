@@ -119,7 +119,7 @@ export const testimonialData = {
     },
     {
       message:
-        "I had brunch at this restaurant last weekend and it was fantastic! The menu had a great mix of sweet and savory options, and everything we tried was delicious. I especially loved the eggs benedict and the homemade pastries. The coffee was also excellent. The atmosphere was cozy and welcoming, and the service was friendly and attentive. I can't wait to come back!",
+        "I had brunch at this restaurant last weekend and it was fantastic! The menu had a great mix of sweet and savory options, and everything we tried was delicious. I especially loved the burger and the homemade pastries. The atmosphere was cozy and welcoming, and the service was friendly and attentive. I can't wait to come back!",
       image: Avatar3,
       name: "Henry A",
       occupation: "CTO of Zivline",
