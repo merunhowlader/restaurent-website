@@ -36,7 +36,7 @@ const Hero = () => {
             variants={fadeIn("down", "tween", 0.3, 1.1)}
             className="h1 mb-5"
           >
-            CherryChook
+            cherryChook
           </motion.h1>
           {/* subtitle */}
           <motion.p
