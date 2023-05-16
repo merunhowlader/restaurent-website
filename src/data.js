@@ -99,30 +99,33 @@ export const teamData = {
 };
 
 export const testimonialData = {
-  title: "what client's say ",
-  subtitle: "1500+ statisfied clients",
+  title: "what customers say ",
+  subtitle: "1500+ statisfied Customers",
   modelImg: ModelWhiteImg,
   slider: [
     {
       message:
-        "I recently had dinner at this restaurant and it was absolutely amazing! The food was expertly prepared and beautifully presented, with a range of flavors and textures that kept me interested throughout the meal. The service was attentive and friendly, and the ambiance was perfect for a special occasion. I highly recommend this restaurant to anyone looking for a high-quality dining experience",
-      image: Avatar1,
-      name: "Olivia",
-      occupation: "CEO of digitech",
+        "This chicken store is like an all-you-can-eat buffet ,there is chicken ,lots of veggies and more .I would definitely recommend this place to anyone who likes chicken.",
+
+      name: "Cristine Duo Li ",
     },
     {
       message:
-        "I've been coming to this restaurant for years and it never disappoints. The menu is diverse and creative, with a mix of classic dishes and unique creations that are always delicious. The service is consistently excellent, with friendly and knowledgeable staff who are happy to make recommendations. I especially love the outdoor seating area, which is perfect for enjoying a meal on a beautiful day.",
-      image: Avatar2,
-      name: "John Doe",
-      occupation: "CEO of Zivline",
+        "Amazing food with a great service ... will definitely come back soon . specially their fish coctail is something mouthwatering ... keep up the good work.",
+
+      name: "Tanvir Yousuf ",
     },
     {
       message:
-        "I had brunch at this restaurant last weekend and it was fantastic! The menu had a great mix of sweet and savory options, and everything we tried was delicious. I especially loved the burger and the homemade pastries. The atmosphere was cozy and welcoming, and the service was friendly and attentive. I can't wait to come back!",
-      image: Avatar3,
-      name: "Henry A",
-      occupation: "CTO of Zivline",
+        "Had a very testy burger and fresh juice here . very reasonable pricing too. ",
+
+      name: "Maaduri LLango",
+    },
+    {
+      message:
+        "Southern fried burger is one of the burger ive ever eaten - staff are always friendly and polite.",
+
+      name: "Qwatz Smiggins",
     },
   ],
 };

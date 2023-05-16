@@ -40,7 +40,7 @@ const About = () => {
               today? We promise you won't be disappointed!
             </p>
             <button className="btn capitalize mx-auto lg:mx-0">
-              <NavLink to="/menu">Viw Full menu</NavLink>
+              <NavLink to="/menu">View Full menu</NavLink>
             </button>
           </motion.div>
           {/* image */}

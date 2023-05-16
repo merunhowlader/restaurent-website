@@ -102,7 +102,7 @@ const Menu = () => {
             componet={NavLink}
             to="/menu"
           >
-            <NavLink to="/menu">Viw Full menu</NavLink>
+            <NavLink to="/menu">View Full menu</NavLink>
           </button>
         </div>
       </motion.div>
