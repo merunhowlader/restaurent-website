@@ -42,8 +42,8 @@ const Footer = () => {
                 41-47, Shepherds Drive, Cherrybrook Village Shopping Centre.
                 Cherrybrook. NSW-2126
               </div>
-              <div className="capitalize">0430481146</div>
-              <div className="capitalize">0433563413</div>
+
+              <div className="capitalize">0294810238</div>
               <div className="">cherrybrook.gourmetfood@gmail.com</div>
             </div>
             {/* program */}

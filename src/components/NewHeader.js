@@ -108,7 +108,12 @@ const NewHeader = () => {
 
                 <NavLink
                   className="text-xl  text-white capitalize font-primary  hover:text-dark transition-all duration-300"
-                  to="/contact"
+                  onClick={() =>
+                    window.open(
+                      "https://app.byto.com.au/venue-section/67445eff-7540-44aa-b5ec-f794f9cc7446",
+                      "_blank"
+                    )
+                  }
                 >
                   Order Online
                 </NavLink>
@@ -227,7 +232,12 @@ const NewHeader = () => {
               </NavLink>
               <NavLink
                 className="text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
-                to="/contact"
+                onClick={() =>
+                  window.open(
+                    "https://app.byto.com.au/venue-section/67445eff-7540-44aa-b5ec-f794f9cc7446",
+                    "_blank"
+                  )
+                }
               >
                 Order Online
               </NavLink>

@@ -12,6 +12,7 @@ import { Manu } from "./modules/manu/Manu";
 import { CoreStructure } from "./modules/core/CoreStructure";
 import { Home } from "./modules/home/Home";
 import { ContactUs } from "./modules/contactUs/ContactUs";
+
 const App = () => {
   return (
     <Routes>

@@ -13,10 +13,10 @@ const Hero = () => {
   // destructure hero data
   const { pretitle, title, subtitle, btnText } = heroData;
   return (
-    <section className="min-h-[980px] bg-hero bg-cover bg-right">
+    <section className="min-h-[700px] lg:min-h-[980px] bg-hero bg-cover bg-right">
       {/* header */}
 
-      <div className="container mx-auto min-h-[980px] flex justify-center items-center">
+      <div className="container mx-auto min-h-[700px] lg:min-h-[980px] flex justify-center items-center">
         {/* text */}
         <motion.div
           variants={staggerContainer(0.3, 1)}
@@ -47,7 +47,15 @@ const Hero = () => {
           </motion.p>
           {/* button */}
           <motion.div variants={fadeIn("down", "tween", 0.5, 1.1)}>
-            <Link to="/contact" className="btn btn-primary">
+            <Link
+              onClick={() =>
+                window.open(
+                  "https://app.byto.com.au/venue-section/67445eff-7540-44aa-b5ec-f794f9cc7446",
+                  "_blank"
+                )
+              }
+              className="btn btn-primary"
+            >
               Order Online
             </Link>
           </motion.div>

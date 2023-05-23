@@ -79,7 +79,7 @@ export const ContactUs = () => {
                     Cherrybrook. NSW-2126
                   </span>
                 </div>
-                {/* <div class="flex items-center space-x-2 mt-5">
+                <div class="flex items-center space-x-2 mt-5">
                   <AiOutlineUser />
                   <span class="text-sm capitalize">Protul Dhar</span>
                 </div>
@@ -90,13 +90,18 @@ export const ContactUs = () => {
                 <div class="flex items-center space-x-2 mt-5">
                   <AiOutlineUser />
                   <span class="text-sm capitalize">Mostofa Yeasin</span>
-                </div> */}
-                <div class="flex items-center space-x-2 mt-5"></div>
+                </div>
+                <div class="flex items-center space-x-2 mt-5">
+                  <AiFillPhone />
+                  <span class="text-sm"> 0433563413</span>
+                </div>
+
+                {/* <div class="flex items-center space-x-2 mt-5"></div>
 
                 <div class="flex items-center space-x-2 mt-5">
                   <AiFillPhone />
                   <span class="text-sm"> 0294810238</span>
-                </div>
+                </div> */}
                 <div class="flex items-center space-x-2 mt-5">
                   <AiOutlineMail />
                   <span class="text-sm">cherrybrook.gourmetfood@gmail.com</span>
