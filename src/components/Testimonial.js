@@ -7,7 +7,7 @@ import { testimonialData } from "../data";
 import { motion } from "framer-motion";
 // import variants
 import { fadeIn } from "../variants";
-
+import { Link } from "react-router-dom";
 const Testimonial = () => {
   // destructure testimonial data
   const { title, subtitle, modelImg, slider } = testimonialData;
@@ -37,6 +37,16 @@ const Testimonial = () => {
         >
           <TestimonialCarousel slider={slider} />
         </motion.div>
+        <div className="p-10">
+          <Link
+            onClick={() =>
+              window.open("https://g.page/r/CZZMxPaQVUqLEB0/review", "_blank")
+            }
+            className=" flex justify-center items-center p-10 text-accent "
+          >
+            Give Your Feedback
+          </Link>
+        </div>
       </div>
     </section>
   );

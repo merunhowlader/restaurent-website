@@ -106,6 +106,10 @@ export const ContactUs = () => {
                   <AiOutlineMail />
                   <span class="text-sm">cherrybrook.gourmetfood@gmail.com</span>
                 </div>
+                <div class="flex items-center space-x-2 mt-5">
+                  <AiOutlineMail />
+                  <span class="text-sm">cherrychook@cherrybrook.com.au</span>
+                </div>
 
                 <div class="flex items-center mt-5">
                   <span class="text-sm">08:30 AM - 8:00 PM</span>
