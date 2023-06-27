@@ -152,7 +152,7 @@ const NewHeader = () => {
                             ? "text-xl text-dark capitalize font-primary hover:text-white transition-all duration-300"
                             : "text-xl capitalize font-primary text-white  hover:text-dark transition-all duration-300"
                         }
-                        to="/contact"
+                        to="/catering-menu"
                       >
                         catering menu
                       </NavLink>
@@ -225,8 +225,12 @@ const NewHeader = () => {
               </NavLink>
 
               <NavLink
-                className="text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
-                to="/contact"
+                className={(navlInk) =>
+                  navlInk.isActive
+                    ? "text-xl text-red-700 capitalize font-primary hover:text-dark transition-all duration-300"
+                    : "text-xl capitalize font-primary  hover:text-dark transition-all duration-300"
+                }
+                to="/catering-menu"
               >
                 catering menu
               </NavLink>
