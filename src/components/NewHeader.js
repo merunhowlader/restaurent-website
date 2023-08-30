@@ -142,7 +142,7 @@ const NewHeader = () => {
                         }
                         to="/menu"
                       >
-                        store menu
+                        Takeaway Menu
                       </NavLink>
                     </li>
                     <li>
@@ -150,7 +150,7 @@ const NewHeader = () => {
                         className={(navlInk) =>
                           navlInk.isActive
                             ? "text-xl text-dark capitalize font-primary hover:text-white transition-all duration-300"
-                            : "text-xl capitalize font-primary text-white  hover:text-dark transition-all duration-300"
+                            : "text-xl capitalize font-primary text-white hover:text-dark transition-all duration-300"
                         }
                         to="/catering-menu"
                       >

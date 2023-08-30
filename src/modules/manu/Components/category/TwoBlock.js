@@ -51,7 +51,7 @@ export const TwoBlock = () => {
                 <ImageLessSingleItem name="REG" price="4.50" />
               </div>
               <div>
-                <ImageLessSingleItem name="MED" price="9.50" />
+                <ImageLessSingleItem name="MED" price="9.90" />
               </div>
               <div>
                 <ImageLessSingleItem name="LRG" price="11.50" />

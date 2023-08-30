@@ -699,7 +699,7 @@ export const CateringMenu = () => {
                 </div>
                 <div class="flex items-center space-x-2 mt-5">
                   <AiFillPhone />
-                  <span class="text-sm"> 0433563418</span>
+                  <span class="text-sm"> 0433 563 413</span>
                 </div>
                 <div class="flex items-center space-x-2 mt-5">
                   <AiOutlineUser />
@@ -707,7 +707,7 @@ export const CateringMenu = () => {
                 </div>
                 <div class="flex items-center space-x-2 mt-5">
                   <AiFillPhone />
-                  <span class="text-sm">0430481146</span>
+                  <span class="text-sm">0430 481 146</span>
                 </div>
                 <div class="flex items-center space-x-2 mt-5">
                   <AiOutlineHome />

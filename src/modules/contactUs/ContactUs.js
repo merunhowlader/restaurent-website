@@ -16,7 +16,12 @@ import { motion } from "framer-motion";
 // import variants
 import { fadeIn, staggerContainer } from "../../variants";
 import { useForm } from "react-hook-form";
-import { AiFillPhone, AiOutlineUser, AiOutlineMail } from "react-icons/ai";
+import {
+  AiFillPhone,
+  AiOutlineUser,
+  AiOutlineMail,
+  AiOutlineShop,
+} from "react-icons/ai";
 
 export const ContactUs = () => {
   // destructure reservation data
@@ -78,6 +83,14 @@ export const ContactUs = () => {
                     41-47, Shepherds Drive, Cherrybrook Village Shopping Centre.
                     Cherrybrook. NSW-2126
                   </span>
+                </div>
+                <div class="flex items-center space-x-2 mt-5">
+                  <AiOutlineShop />
+                  <span class="text-sm capitalize">Shop</span>
+                </div>
+                <div class="flex items-center space-x-2 mt-5">
+                  <AiFillPhone />
+                  <span class="text-sm">0294810238</span>
                 </div>
                 <div class="flex items-center space-x-2 mt-5">
                   <AiOutlineUser />
