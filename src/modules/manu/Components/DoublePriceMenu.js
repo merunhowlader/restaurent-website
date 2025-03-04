@@ -13,7 +13,7 @@ export const DoublePriceMenu = () => {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full ">
           <div>
             <div className="border-t-2 border-gray-300  border-dashed p-1 ">
-              <div className="flex flex-nowrap space-x-2 w-full text-[#e63945]">
+              <div className="flex flex-nowrap space-x-5 w-full text-[#e63945]">
                 <div className="w-8/12">
                   <h5 className="font-bold capitalize">Checken Burger</h5>
                 </div>
@@ -26,9 +26,9 @@ export const DoublePriceMenu = () => {
               </div>
             </div>
           </div>
-          <div className="sm:hidden lg:inline">
+          <div className="hidden md:inline">
             <div className="border-t-2 border-gray-300  border-dashed p-1 ">
-              <div className="flex flex-nowrap space-x-2 w-full text-[#e63945]">
+              <div className="flex flex-nowrap space-x-4 w-full text-[#e63945]">
                 <div className="w-8/12">
                   <h5 className="font-bold capitalize">Checken Burger</h5>
                 </div>

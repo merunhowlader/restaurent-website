@@ -13,7 +13,7 @@ module.exports = {
       },
     },
     screens: {
-      sm: "400px",
+      sm: "640px",
       md: "768px",
       lg: "1024px",
       xl: "1200px",
@@ -33,11 +33,11 @@ module.exports = {
       },
       backgroundImage: {
         pattern: "url('assets/img/body-bg-pattern.png')",
-        hero: "url('assets/img/hero/bg.png')",
+        hero: "url('assets/img/hero/heroNew.jpg')",
         menu: "url('assets/img/menu/bg.png')",
         testimonial: "url('assets/img/testimonial/bg.png')",
         newsletter: "url('assets/img/newsletter/bg.png')",
-        footer: "url('assets/img/footer/bg.png')",
+        footer: "url('assets/img/footer/footerNew.jpg')",
       },
     },
   },

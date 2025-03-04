@@ -1,7 +1,7 @@
 import React from "react";
 import { ImageLessSingleItem } from "./ImageLessSingleItem";
 
-export const SingleCategoryMenu = () => {
+export const SinglePriceMenu = () => {
   return (
     <div className="grid grid-cols-1 w-full pt-5 content-center ">
       <div className="w-full flex justify-center  align-middle ">

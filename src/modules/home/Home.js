@@ -12,9 +12,9 @@ export const Home = () => {
       <Hero />
       <About />
       <Menu />
-      <Team />
+      {/* <Team /> */}
       <Testimonial />
-      <Reservation />
+      {/* <Reservation /> */}
 
       <div className="h-[380px] md:h-[370px]"></div>
     </div>
